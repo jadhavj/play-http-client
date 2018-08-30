@@ -9,4 +9,4 @@ RUN groupadd -r securityapp && useradd -r -G root -g securityapp securityapp && 
 		chmod -R 775 /app/
 USER securityapp
 ENTRYPOINT ["sh","/app/run_http.sh"]
-EXPOSE 2555 9000
+EXPOSE 2555 2551 9000
