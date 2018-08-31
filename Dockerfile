@@ -1,5 +1,4 @@
-FROM java:8-jdk
-CMD ["/bin/bash"]
+FROM java:8
 ENV APP_HOME /opt
 WORKDIR $APP_HOME
 ADD target/universal/play-http-client-1.0-SNAPSHOT .
