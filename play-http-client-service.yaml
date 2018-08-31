@@ -19,5 +19,5 @@ spec:
     deploymentconfig: play-http-client
   sessionAffinity: None
   type: ClusterIP
-  clusterIP: 172.30.0.12
-  portalIP: 172.30.0.12
+  clusterIP: 172.30.0.13
+  portalIP: 172.30.0.13
