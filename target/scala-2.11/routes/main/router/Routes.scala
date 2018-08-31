@@ -1,6 +1,6 @@
 // @GENERATOR:play-routes-compiler
 // @SOURCE:D:/play-http-client/conf/routes
-// @DATE:Thu Aug 30 16:42:16 IST 2018
+// @DATE:Fri Aug 31 19:36:40 IST 2018
 
 package router
 
