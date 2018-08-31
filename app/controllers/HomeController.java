@@ -18,7 +18,7 @@ public class HomeController extends Controller {
     ActorSystem system;
 
     public CompletionStage<Result> ping() {
-        ActorSelection selection = system.actorSelection("akka:tcp://ClusterSystem@akka-worker:2551/worker");
+        ActorSelection selection = system.actorSelection("akka:tcp://ClusterSystem@akka-worker:2551/user/worker");
 		
 		return FutureConverters.toJava(Patterns.ask(selection, new String(), 60000))
                 .thenApply(val -> {

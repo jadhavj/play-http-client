@@ -1,0 +1,33 @@
+apiVersion: extensions/v1beta1
+kind: Deployment
+metadata:
+  labels:
+    run: play-http-client
+  name: play-http-client
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      run: play-http-client
+  template:
+    metadata:
+      labels:
+        run: play-http-client
+    spec:
+      containers:
+      - name: play-http-client
+        image: jujadhav/akka:t2
+        env:
+        - name: SEED_NODES
+          value: akka-seed-0.akka-seed,akka-seed-1.akka-seed
+        - name: HOST_NAME
+          valueFrom:
+            fieldRef:
+              apiVersion: v1
+              fieldPath: status.podIP
+        livenessProbe:
+          tcpSocket:
+            port: 2555
+        ports:
+        - containerPort: 2555
+          protocol: TCP
