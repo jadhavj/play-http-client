@@ -4,7 +4,7 @@
 		module="play-http-client_2.11"
 		revision="1.0-SNAPSHOT"
 		status="integration"
-		publication="20180831193640"
+		publication="20180831214208"
 	>
 		<description>
 		play-http-client
