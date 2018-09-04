@@ -7,7 +7,7 @@
 		revision="1.0-SNAPSHOT"
 		conf="compile-internal"
 		confs="universal, universal-docs, universal-src, compile, runtime, test, provided, optional, windows, docker, linux, rpm, debian, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool, jacoco"
-		date="20180901013541"/>
+		date="20180904195440"/>
 	<dependencies>
 		<module organisation="com.marriott.rms" name="rms-jpa-utils">
 			<revision name="1.0-SNAPSHOT" status="integration" pubdate="20180828104601" resolver="sbt-chain" artresolver="sbt-chain" downloaded="false" searched="false" default="false" conf="compile, default(compile)" position="116">
@@ -33,7 +33,7 @@
 			</revision>
 		</module>
 		<module organisation="com.marriott.rms" name="rms-akka-utils">
-			<revision name="1.0-SNAPSHOT" status="integration" pubdate="20180802030522" resolver="sbt-chain" artresolver="sbt-chain" downloaded="false" searched="false" default="false" conf="compile, default(compile)" position="117">
+			<revision name="1.0-SNAPSHOT" status="integration" pubdate="20180817171651" resolver="sbt-chain" artresolver="sbt-chain" downloaded="false" searched="false" default="false" conf="compile, default(compile)" position="117">
 				<metadata-artifact status="no" details="" size="2611" time="0" location="C:\Users\M1039838\.ivy2\cache\com.marriott.rms\rms-akka-utils\ivy-1.0-SNAPSHOT.xml" searched="false" origin-is-local="true" origin-location="C:\Users\M1039838\.ivy2\local\com.marriott.rms\rms-akka-utils\1.0-SNAPSHOT\ivys\ivy.xml"/>
 				<caller organisation="com.marriott.rms" name="rms-jpa-utils" conf="compile" rev="1.0-SNAPSHOT" rev-constraint-default="1.0-SNAPSHOT" rev-constraint-dynamic="1.0-SNAPSHOT" callerrev="1.0-SNAPSHOT"/>
 				<artifacts>
