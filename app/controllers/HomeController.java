@@ -23,10 +23,12 @@ import java.util.stream.Collectors;
  */
 public class HomeController extends Controller {
 
-    @Inject
+    
 	ActorSystem system;
 
-    public HomeController() {
+	@Inject
+    public HomeController(ActorSystem actorSystem) {
+		this.system = actorSystem;
         this.system.actorOf(SimpleClusterListener.props(), "client");
         final ActorMaterializer materializer = ActorMaterializer.create(system);
 
