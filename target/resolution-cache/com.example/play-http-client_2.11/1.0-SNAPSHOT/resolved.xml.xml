@@ -4,7 +4,11 @@
 		module="play-http-client_2.11"
 		revision="1.0-SNAPSHOT"
 		status="integration"
+<<<<<<< HEAD
 		publication="20180905175929"
+=======
+		publication="20180831233532"
+>>>>>>> parent of 91dd95f... okd
 	>
 		<description>
 		play-http-client

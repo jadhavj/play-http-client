@@ -7,7 +7,11 @@
 		revision="1.0-SNAPSHOT"
 		conf="linux"
 		confs="universal, universal-docs, universal-src, compile, runtime, test, provided, optional, windows, docker, linux, rpm, debian, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool, jacoco"
+<<<<<<< HEAD
 		date="20180905175929"/>
+=======
+		date="20180831233532"/>
+>>>>>>> parent of 91dd95f... okd
 	<dependencies>
 	</dependencies>
 </ivy-report>

@@ -7,7 +7,11 @@
 		revision="1.0-SNAPSHOT"
 		conf="runtime"
 		confs="universal, universal-docs, universal-src, compile, runtime, test, provided, optional, windows, docker, linux, rpm, debian, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool, jacoco"
+<<<<<<< HEAD
 		date="20180905175929"/>
+=======
+		date="20180831233532"/>
+>>>>>>> parent of 91dd95f... okd
 	<dependencies>
 		<module organisation="com.marriott.rms" name="rms-jpa-utils">
 			<revision name="1.0-SNAPSHOT" status="integration" pubdate="20180828104601" resolver="sbt-chain" artresolver="sbt-chain" downloaded="false" searched="false" default="false" conf="compile, default(compile)" position="117">
