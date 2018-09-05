@@ -7,7 +7,7 @@
 		revision="1.0-SNAPSHOT"
 		conf="universal-src"
 		confs="universal, universal-docs, universal-src, compile, runtime, test, provided, optional, windows, docker, linux, rpm, debian, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool, jacoco"
-		date="20180904195440"/>
+		date="20180905162005"/>
 	<dependencies>
 	</dependencies>
 </ivy-report>

@@ -7,10 +7,10 @@
 		revision="1.0-SNAPSHOT"
 		conf="compile"
 		confs="universal, universal-docs, universal-src, compile, runtime, test, provided, optional, windows, docker, linux, rpm, debian, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool, jacoco"
-		date="20180904195440"/>
+		date="20180905162005"/>
 	<dependencies>
 		<module organisation="com.marriott.rms" name="rms-jpa-utils">
-			<revision name="1.0-SNAPSHOT" status="integration" pubdate="20180828104601" resolver="sbt-chain" artresolver="sbt-chain" downloaded="false" searched="false" default="false" conf="compile, default(compile)" position="116">
+			<revision name="1.0-SNAPSHOT" status="integration" pubdate="20180828104601" resolver="sbt-chain" artresolver="sbt-chain" downloaded="false" searched="false" default="false" conf="compile, default(compile)" position="117">
 				<metadata-artifact status="no" details="" size="2751" time="0" location="C:\Users\M1039838\.ivy2\cache\com.marriott.rms\rms-jpa-utils\ivy-1.0-SNAPSHOT.xml" searched="false" origin-is-local="true" origin-location="C:\Users\M1039838\.ivy2\local\com.marriott.rms\rms-jpa-utils\1.0-SNAPSHOT\ivys\ivy.xml"/>
 				<caller organisation="com.example" name="play-http-client_2.11" conf="compile" rev="1.0-SNAPSHOT" rev-constraint-default="1.0-SNAPSHOT" rev-constraint-dynamic="1.0-SNAPSHOT" callerrev="1.0-SNAPSHOT"/>
 				<artifacts>
@@ -21,7 +21,7 @@
 			</revision>
 		</module>
 		<module organisation="org.hibernate" name="hibernate-ehcache">
-			<revision name="5.1.11.Final" status="release" pubdate="20180111043434" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://hibernate.org" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="119">
+			<revision name="5.1.11.Final" status="release" pubdate="20180111043434" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://hibernate.org" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="120">
 				<license name="GNU Lesser General Public License" url="http://www.gnu.org/licenses/lgpl-2.1.html"/>
 				<metadata-artifact status="no" details="" size="3071" time="0" location="C:\Users\M1039838\.ivy2\cache\org.hibernate\hibernate-ehcache\ivy-5.1.11.Final.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/hibernate/hibernate-ehcache/5.1.11.Final/hibernate-ehcache-5.1.11.Final.pom"/>
 				<caller organisation="com.marriott.rms" name="rms-jpa-utils" conf="compile" rev="5.1.11.Final" rev-constraint-default="5.1.11.Final" rev-constraint-dynamic="5.1.11.Final" callerrev="1.0-SNAPSHOT"/>
@@ -33,7 +33,7 @@
 			</revision>
 		</module>
 		<module organisation="com.marriott.rms" name="rms-akka-utils">
-			<revision name="1.0-SNAPSHOT" status="integration" pubdate="20180817171651" resolver="sbt-chain" artresolver="sbt-chain" downloaded="false" searched="false" default="false" conf="compile, default(compile)" position="117">
+			<revision name="1.0-SNAPSHOT" status="integration" pubdate="20180817171651" resolver="sbt-chain" artresolver="sbt-chain" downloaded="false" searched="false" default="false" conf="compile, default(compile)" position="118">
 				<metadata-artifact status="no" details="" size="2611" time="0" location="C:\Users\M1039838\.ivy2\cache\com.marriott.rms\rms-akka-utils\ivy-1.0-SNAPSHOT.xml" searched="false" origin-is-local="true" origin-location="C:\Users\M1039838\.ivy2\local\com.marriott.rms\rms-akka-utils\1.0-SNAPSHOT\ivys\ivy.xml"/>
 				<caller organisation="com.marriott.rms" name="rms-jpa-utils" conf="compile" rev="1.0-SNAPSHOT" rev-constraint-default="1.0-SNAPSHOT" rev-constraint-dynamic="1.0-SNAPSHOT" callerrev="1.0-SNAPSHOT"/>
 				<artifacts>
@@ -44,7 +44,7 @@
 			</revision>
 		</module>
 		<module organisation="commons-io" name="commons-io">
-			<revision name="2.6" status="release" pubdate="20171015153052" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://commons.apache.org/proper/commons-io/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="118">
+			<revision name="2.6" status="release" pubdate="20171015153052" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://commons.apache.org/proper/commons-io/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="119">
 				<license name="Apache License, Version 2.0" url="https://www.apache.org/licenses/LICENSE-2.0.txt"/>
 				<metadata-artifact status="no" details="" size="12952" time="0" location="C:\Users\M1039838\.ivy2\cache\commons-io\commons-io\ivy-2.6.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/commons-io/commons-io/2.6/commons-io-2.6.pom"/>
 				<caller organisation="com.marriott.rms" name="rms-akka-utils" conf="compile" rev="2.6" rev-constraint-default="2.6" rev-constraint-dynamic="2.6" callerrev="1.0-SNAPSHOT"/>
@@ -56,7 +56,7 @@
 			</revision>
 		</module>
 		<module organisation="org.webjars" name="swagger-ui">
-			<revision name="2.2.10-1" status="release" pubdate="20170210125018" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://webjars.org" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="115">
+			<revision name="2.2.10-1" status="release" pubdate="20170210125018" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://webjars.org" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="116">
 				<license name="Apache 2.0" url="https://github.com/swagger-api/swagger-ui"/>
 				<metadata-artifact status="no" details="" size="3663" time="0" location="C:\Users\M1039838\.ivy2\cache\org.webjars\swagger-ui\ivy-2.2.10-1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/webjars/swagger-ui/2.2.10-1/swagger-ui-2.2.10-1.pom"/>
 				<caller organisation="com.example" name="play-http-client_2.11" conf="compile" rev="2.2.10-1" rev-constraint-default="2.2.10-1" rev-constraint-dynamic="2.2.10-1" callerrev="1.0-SNAPSHOT"/>
@@ -67,10 +67,23 @@
 				</artifacts>
 			</revision>
 		</module>
+		<module organisation="com.typesafe.akka" name="akka-cluster_2.11">
+			<revision name="2.5.12" status="release" pubdate="20180413120142" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://akka.io/" extra-info.apiURL="http://doc.akka.io/api/akka/2.5.12" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="115">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="3496" time="0" location="C:\Users\M1039838\.ivy2\cache\com.typesafe.akka\akka-cluster_2.11\ivy-2.5.12.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/typesafe/akka/akka-cluster_2.11/2.5.12/akka-cluster_2.11-2.5.12.pom"/>
+				<caller organisation="com.example" name="play-http-client_2.11" conf="compile" rev="2.5.12" rev-constraint-default="2.5.12" rev-constraint-dynamic="2.5.12" callerrev="1.0-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="akka-cluster_2.11" type="jar" ext="jar" status="no" details="" size="1193514" time="0" location="C:\Users\M1039838\.ivy2\cache\com.typesafe.akka\akka-cluster_2.11\jars\akka-cluster_2.11-2.5.12.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/typesafe/akka/akka-cluster_2.11/2.5.12/akka-cluster_2.11-2.5.12.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
 		<module organisation="com.typesafe.akka" name="akka-remote_2.11">
-			<revision name="2.5.12" status="release" pubdate="20180413120051" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://akka.io/" extra-info.apiURL="http://doc.akka.io/api/akka/2.5.12" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="106">
+			<revision name="2.5.12" status="release" pubdate="20180413120051" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://akka.io/" extra-info.apiURL="http://doc.akka.io/api/akka/2.5.12" downloaded="false" searched="false" default="false" conf="default, compile, runtime(*), master(compile), runtime, default(compile), compile(*), master" position="106">
 				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
 				<metadata-artifact status="no" details="" size="4476" time="0" location="C:\Users\M1039838\.ivy2\cache\com.typesafe.akka\akka-remote_2.11\ivy-2.5.12.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/typesafe/akka/akka-remote_2.11/2.5.12/akka-remote_2.11-2.5.12.pom"/>
+				<caller organisation="com.typesafe.akka" name="akka-cluster_2.11" conf="default, compile, runtime, master" rev="2.5.12" rev-constraint-default="2.5.12" rev-constraint-dynamic="2.5.12" callerrev="2.5.12"/>
 				<caller organisation="com.example" name="play-http-client_2.11" conf="compile" rev="2.5.12" rev-constraint-default="2.5.12" rev-constraint-dynamic="2.5.12" callerrev="1.0-SNAPSHOT"/>
 				<artifacts>
 					<artifact name="akka-remote_2.11" type="jar" ext="jar" status="no" details="" size="2800340" time="0" location="C:\Users\M1039838\.ivy2\cache\com.typesafe.akka\akka-remote_2.11\jars\akka-remote_2.11-2.5.12.jar">
@@ -1836,6 +1849,7 @@
 				<caller organisation="com.typesafe.play" name="play-guice_2.11" conf="default, compile, runtime, master" rev="2.11.7" rev-constraint-default="2.11.7" rev-constraint-dynamic="2.11.7" callerrev="2.6.13"/>
 				<caller organisation="com.typesafe.play" name="play-server_2.11" conf="default, compile, runtime, master" rev="2.11.7" rev-constraint-default="2.11.7" rev-constraint-dynamic="2.11.7" callerrev="2.6.13"/>
 				<caller organisation="com.typesafe" name="ssl-config-core_2.11" conf="compile, runtime" rev="2.11.7" rev-constraint-default="2.11.7" rev-constraint-dynamic="2.11.7" callerrev="0.2.3"/>
+				<caller organisation="com.typesafe.akka" name="akka-cluster_2.11" conf="default, compile, runtime, master" rev="2.11.7" rev-constraint-default="2.11.7" rev-constraint-dynamic="2.11.7" callerrev="2.5.12"/>
 				<caller organisation="com.typesafe.play" name="play-java-forms_2.11" conf="default, compile, runtime, master" rev="2.11.7" rev-constraint-default="2.11.7" rev-constraint-dynamic="2.11.7" callerrev="2.6.13"/>
 				<caller organisation="com.typesafe.play" name="play-ahc-ws-standalone_2.11" conf="compile, runtime" rev="2.11.7" rev-constraint-default="2.11.7" rev-constraint-dynamic="2.11.7" callerrev="1.1.7"/>
 				<caller organisation="org.scala-lang.modules" name="scala-java8-compat_2.11" conf="compile, runtime" rev="2.11.7" rev-constraint-default="2.11.7" rev-constraint-dynamic="2.11.7" callerrev="0.8.0"/>

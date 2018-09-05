@@ -1,6 +1,6 @@
 // @GENERATOR:play-routes-compiler
 // @SOURCE:D:/play-http-client/conf/routes
-// @DATE:Tue Sep 04 19:54:40 IST 2018
+// @DATE:Wed Sep 05 16:20:05 IST 2018
 
 import play.api.mvc.Call
 

@@ -4,7 +4,7 @@
 		module="play-http-client_2.11"
 		revision="1.0-SNAPSHOT"
 		status="integration"
-		publication="20180904195440"
+		publication="20180905162004"
 	>
 		<description>
 		play-http-client
@@ -68,6 +68,7 @@
 		<dependency org="com.typesafe.akka" name="akka-http_2.11" rev="10.0.10" conf="compile->default(compile)"/>
 		<dependency org="com.typesafe.akka" name="akka-actor_2.11" rev="2.5.12" conf="compile->default(compile)"/>
 		<dependency org="com.typesafe.akka" name="akka-remote_2.11" rev="2.5.12" conf="compile->default(compile)"/>
+		<dependency org="com.typesafe.akka" name="akka-cluster_2.11" rev="2.5.12" conf="compile->default(compile)"/>
 		<dependency org="com.typesafe.akka" name="akka-testkit_2.11" rev="2.5.12" conf="test->default(compile)"/>
 		<dependency org="org.webjars" name="swagger-ui" rev="2.2.10-1" conf="compile->default(compile)"/>
 		<dependency org="javax.validation" name="validation-api" rev="1.1.0.Final" conf="compile->default(compile)"/>
