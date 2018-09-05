@@ -10,6 +10,8 @@
 [0m[[0mdebug[0m] [0m	  D:\play-http-client\target\scala-2.11\classes\router[0m
 [0m[[0mdebug[0m] [0m	router\RoutesPrefix$.class[0m
 [0m[[0mdebug[0m] [0m	  D:\play-http-client\target\scala-2.11\classes\router\RoutesPrefix$.class[0m
+[0m[[0mdebug[0m] [0m	controllers\ClusterMembers.class[0m
+[0m[[0mdebug[0m] [0m	  D:\play-http-client\target\scala-2.11\classes\controllers\ClusterMembers.class[0m
 [0m[[0mdebug[0m] [0m	router\Routes$$anonfun$routes$1.class[0m
 [0m[[0mdebug[0m] [0m	  D:\play-http-client\target\scala-2.11\classes\router\Routes$$anonfun$routes$1.class[0m
 [0m[[0mdebug[0m] [0m	router\RoutesPrefix.class[0m
@@ -22,6 +24,8 @@
 [0m[[0mdebug[0m] [0m	  D:\play-http-client\target\scala-2.11\classes\controllers\routes.class[0m
 [0m[[0mdebug[0m] [0m	router\Routes$$anonfun$routes$1$$anonfun$applyOrElse$1$$anonfun$apply$1.class[0m
 [0m[[0mdebug[0m] [0m	  D:\play-http-client\target\scala-2.11\classes\router\Routes$$anonfun$routes$1$$anonfun$applyOrElse$1$$anonfun$apply$1.class[0m
+[0m[[0mdebug[0m] [0m	controllers\SimpleClusterListener.class[0m
+[0m[[0mdebug[0m] [0m	  D:\play-http-client\target\scala-2.11\classes\controllers\SimpleClusterListener.class[0m
 [0m[[0mdebug[0m] [0m	router\Routes$$anonfun$documentation$1.class[0m
 [0m[[0mdebug[0m] [0m	  D:\play-http-client\target\scala-2.11\classes\router\Routes$$anonfun$documentation$1.class[0m
 [0m[[0mdebug[0m] [0m	controllers\javascript\ReverseHomeController.class[0m

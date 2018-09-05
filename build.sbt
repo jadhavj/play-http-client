@@ -27,6 +27,7 @@ libraryDependencies ++= Seq(
   "com.typesafe.akka" %% "akka-http" % "10.0.10",
   "com.typesafe.akka" % "akka-actor_2.11" % "2.5.12",
   "com.typesafe.akka" % "akka-remote_2.11" % "2.5.12",
+  "com.typesafe.akka" % "akka-cluster_2.11" % "2.5.12",
   "com.typesafe.akka" % "akka-testkit_2.11" % "2.5.12" % "test",
   "org.webjars" % "swagger-ui" % "2.2.10-1",
   "javax.validation" % "validation-api" % "1.1.0.Final"
