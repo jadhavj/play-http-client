@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="ivy-report.xsl"?>
+<ivy-report version="1.0">
+	<info
+		organisation="com.example"
+		module="play-http-client_2.11"
+		revision="1.0-SNAPSHOT"
+		conf="universal-docs"
+		confs="universal, universal-docs, universal-src, compile, runtime, test, provided, optional, windows, docker, linux, rpm, debian, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool, jacoco"
+<<<<<<< HEAD
+		date="20180905175929"/>
+=======
+		date="20180831233532"/>
+>>>>>>> parent of 91dd95f... okd
+	<dependencies>
+	</dependencies>
+</ivy-report>
