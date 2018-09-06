@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: play-http-client
-        image: jujadhav/play:p50
+        image: jujadhav/play:p51
         env:
         - name: SEED_NODES
           value: akka-seed-0.akka-seed,akka-seed-1.akka-seed
