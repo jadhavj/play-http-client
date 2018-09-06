@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: play-http-client
-        image: jujadhav/akka:t43
+        image: jujadhav/play:p50
         env:
         - name: SEED_NODES
           value: akka-seed-0.akka-seed,akka-seed-1.akka-seed
@@ -27,7 +27,7 @@ spec:
               fieldPath: status.podIP
         livenessProbe:
           tcpSocket:
-            port: 2555
+            port: 2551
         ports:
-        - containerPort: 2555
+        - containerPort: 2551
           protocol: TCP
