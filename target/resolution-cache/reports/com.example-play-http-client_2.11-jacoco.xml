@@ -7,7 +7,7 @@
 		revision="1.0-SNAPSHOT"
 		conf="jacoco"
 		confs="universal, universal-docs, universal-src, compile, runtime, test, provided, optional, windows, docker, linux, rpm, debian, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool, jacoco"
-		date="20180906170945"/>
+		date="20180906174324"/>
 	<dependencies>
 		<module organisation="org.jacoco" name="org.jacoco.agent">
 			<revision name="0.7.1.201405082137" status="release" pubdate="20140509172326" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="155">
