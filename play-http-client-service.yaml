@@ -16,7 +16,6 @@ spec:
       targetPort: 2555
   selector:
     run: play-http-client
-    deploymentconfig: play-http-client
   sessionAffinity: None
   type: ClusterIP
   clusterIP: 172.30.0.13
