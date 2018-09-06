@@ -30,7 +30,7 @@ public class SimpleClusterMain {
   private static final String CLUSTER_NAME = "ClusterSystem";
   private static ActorSystem actorSystem = null;
 
-  public static void main(String[] args) throws IOException {
+  public static void main2(String[] args) throws IOException {
     actorSystem = ActorSystem.create(CLUSTER_NAME);
     actorSystem.actorOf(NodeService.props(), "worker");
 	
