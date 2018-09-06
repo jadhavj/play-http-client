@@ -40,8 +40,8 @@ public class SimpleClusterListener extends UntypedActor {
         if (message instanceof MemberUp) {
             MemberUp mUp = (MemberUp) message;
 			log.info("member host : " + mUp.member().address().host().get());
-            if (!mUp.member().address().host().get().contains("seed")) {
-				log.info("member host added : " + mUp.member().address().host().get());
+            if (!mUp.member().hasRole("worker")) {
+				log.info("worker host added : " + mUp.member().address().host().get());
                 ClusterMembers.set("worker", mUp.member().address().host().get());
             }
             log.info("Member is Up: {}", mUp.member());
