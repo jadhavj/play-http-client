@@ -25,6 +25,8 @@ spec:
             fieldRef:
               apiVersion: v1
               fieldPath: status.podIP
+        - name: NODE_ROLE
+          value: client
         livenessProbe:
           tcpSocket:
             port: 2551
